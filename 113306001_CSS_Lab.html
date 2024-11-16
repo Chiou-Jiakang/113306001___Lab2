@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My First Style Page</title>
+    <link rel="stylesheet" type="text/css" href="113306001_CSS_Lab.css">
+</head>
+<body>
+    <div class="header">
+        <h1>My First Style Page</h1>
+        Welcome to Chiou-Jia-Kang's homepage. Explore and enjoy!
+
+    </div>
+        <ul class="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a>
+                <ul class="dropdown">
+                    <li><a href="#">Web Design</a></li>
+                    <li><a href="#">Graphic Design</a></li>
+                    <li><a href="#">Digital Marketing</a></li>
+                </ul>
+
+            </li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+<style>
+    main{ font-size:25px ; background-color:gray; color:black; align-items: flex-start;}
+
+@media all {
+    main { font-size:26px;padding-top:20px;padding-bottom:100px;}
+}
+@media print {
+    main {
+        background-color:gray;
+        color:black;
+    }
+}
+</style>
+    <main>
+        
+        <p>This is my first homepage. I'm learning CSS to create a visually appealing website.</p>
+        <p>Feel free to send me a message: <a href="113306001@nccu.edu.tw" style="color:lightcoral;">113306001@g.nccu.edu.tw</a></p>
+    </main>
+</body>
+</html>
